@@ -1,0 +1,41 @@
+UserLand - a kux distribution where YOU are the creator.
+
+what is kux?
+
+    kux is a multi-platform specification for subsystems. it was designed a few
+    years ago to be a no-stick easy to use system to understand user
+    interaction, as well as provide virtual environment mockups for testing
+    purposes.
+
+    userland conforms to the kux specification, and acts as a normal
+    distribution as usual. the only thing that the user themself needs to do is
+    program it.
+
+    in real terms, although not an actual operating system, this kux
+    distribution could be considered a ring 0 system, as well as allows the user
+    to take control of the system and extend it in any way they see fit.
+    
+
+so how does userland work?
+
+    userland is a kux distribution that is fully compiled, which does not mean
+    you can pick it right up and use it, that means that to get functionality on
+    your userland distribution you need to program it.
+
+    the core userland is very small, because it is meant to be extended by user
+    scripts.
+
+    when you run ./userland, you generate a file that contains the userland kernel
+    code. this file is then compiled and can be executed.
+
+notes
+
+    in the different reserved directories, there are different filenames for
+    different types of files. Here is a list of them:
+
+        - UD - Userland Definitions (placed in the main loop)
+  
+examples of userland
+
+    welcome to userland v1.0.0
+    > 
